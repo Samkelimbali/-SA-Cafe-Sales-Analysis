@@ -1,28 +1,30 @@
 ☕ South African Cafe Sales Analysis (Portfolio Project)
 
-End-to-end analysis of messy cafe sales data to identify growth opportunities for a local South African business.
+A full-cycle data analysis project focused on cleaning and transforming "dirty" cafe sales data into actionable business insights using Excel and Power Query.
 
-📋 Project Overview
-I analyzed a "dirty" dataset of a local cafe's sales to identify trends, improve data integrity, and provide actionable business recommendations. This project proves my ability to handle real-world data issues using Excel and Power Query.
+📊 Phase 1: Data Cleaning & Transformation (COMPLETED)
+In this phase, I handled real-world "dirty" data to ensure accuracy for a local South African business.
 
-SA Business Problem
-The cafe owner in South Africa noticed inconsistencies in their sales reporting. My goal is to:
-Clean and Validate the transaction data (fixing errors and missing values).
-Analyze Sales Performance to identify the busiest days and top-selling items in Rands (ZAR).
-Create an Interactive Dashboard for the manager to track daily performance.
+🧹 Cleaning Steps Taken:
+Item Standardisation: Fixed "ERROR" and "UNKNOWN" values in the Item column and used Capitalise Each Word for a professional look.
 
-🛠️ Tools UsedExcel (Power Query):
-For data cleaning and ETL processes.
-Pivot Tables: For data summarization.
-Excel Dashboards: For interactive data visualization.
+Financial Audit: Identified that the original "Total Spent" column had logical errors. I created a new Total Sales column using the formula [Quantity] * [Price Per Unit] to ensure 100% accuracy.
 
-🧹 Data Cleaning Steps (In Progress)
-Handling "ERROR" values in the Item column.
-Standardizing date formats for South African regional settings.
-Calculating missing Total Sales using Quantity and Unit Price.
-Removing duplicate records.
+Handling Missing Data: Replaced empty cells and null values with "Unknown" (for text) and "0" (for numbers) to prevent math errors.
+Localization (ZAR): Converted all monetary values to South African Rand (R).
 
-📈 Key Business Questions
-to AnswerWhat is the Average Order Value (AOV)?
-Which day of the week generates the most revenue?
-Which payment method is most popular among local customers?
+Date Formatting: Resolved American (MDY) vs. South African (DMY) date conflicts to ensure correct time-series analysis.
+
+SA Business Insights (Phase 2 - In Progress)I am currently using Pivot Tables to answer the following:
+
+Top Products: Which items generate the most Rands (R)?
+
+Location Performance: Which South African branch is the top performer?
+
+Sales Trends: Which day of the week is busiest for the cafe?
+
+🛠️ Tools Used Power Query: For Extract, Transform, and Load (ETL) processes.
+
+Excel: For financial calculations and localization.
+
+GitHub: For project documentation and version control.
