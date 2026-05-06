@@ -7,7 +7,7 @@ In this phase, I handled real-world "dirty" data to ensure accuracy for a local 
 
 🧹 Cleaning Steps Taken:
 
-<p align="center"><img src="Data_Cleanig_steps.png" width="600"></p>.
+
 
 Item Standardisation: Fixed "ERROR" and "UNKNOWN" values in the Item column and used Capitalise Each Word for a professional look.
 
