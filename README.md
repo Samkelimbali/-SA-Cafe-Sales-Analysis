@@ -18,16 +18,46 @@ Localization (ZAR): Converted all monetary values to South African Rand (R).
 
 Date Formatting: Resolved American (MDY) vs. South African (DMY) date conflicts to ensure correct time-series analysis.
 
-SA Business Insights (Phase 2 - In Progress)I am currently using Pivot Tables to answer the following:
+📊 Phase 2: Data Analysis & Pivot Tables
 
-Top Products: Which items generate the most Rands (R)?
+In this phase, I moved from data cleaning to deep-dive analysis using Excel Pivot Tables to answer key business questions:
 
-Location Performance: Which South African branch is the top performer?
+Trend Analysis: Grouped dates into months to identify the R10.2k January peak.
 
-Sales Trends: Which day of the week is busiest for the cafe?
+Product Performance: Categorised items to discover that "Salads" are the #1 revenue driver.
+
+Financial Summarisation: Calculated total revenue (R80,478.50) and broke it down by branch and payment method.
 
 🛠️ Tools Used Power Query: For Extract, Transform, and Load (ETL) processes.
 
 Excel: For financial calculations and localization.
 
 GitHub: For project documentation and version control.
+
+<img src="Pivot-tables-analysis.png" width="700">
+
+📊 Phase 3: Interactive Dashboard & Insights (COMPLETED)
+
+In the final phase, I developed a dynamic dashboard to translate raw numbers into visual stories.
+
+Interactive Features:Dynamic Slicers: Integrated Location and Item filters that allow stakeholders to drill down into specific branches or products.
+
+Visual KPIs: Created "at-a-glance" scorecards for Total Revenue (R80k), Top Product (Salad), and Top Branch (Main Branch).
+
+Time-Series Analysis: A smoothed line chart highlighting seasonal trends and the January peak.
+
+💡 Strategic Business Insights:
+
+Seasonality: Identified a 60% revenue spike in January, suggesting the cafe is a major holiday destination.
+
+Menu Optimization: Discovered that Healthy Lunch items (Salads/Sandwiches) generate 50% of total revenue, making them the core of the business.
+
+Data Quality Recommendation: Highlighted that 31% of revenue is currently categorized as "Other." I recommend a deeper audit into this category to better track fees associated with 3rd-party delivery apps like Uber Eats or Mr D.
+
+🛠️ Skills Demonstrated:Excel Dashboarding: Advanced charting, shape-linking, and UI/UX design.
+
+Interactivity: Slicer implementation and Report Connections.
+
+Business Communication: Translating complex charts into actionable executive summaries.
+
+<img src="Dashboard.png" width="700">
